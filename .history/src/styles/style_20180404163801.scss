@@ -1,0 +1,28 @@
+@import './fontawesome/fontawesome.scss';
+@import './blokkfont.scss';
+
+body{
+  background: whitesmoke;
+  // font-family: "open sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+
+  &.fontOpenSansLoaded{
+    font-family: "Open Sans";
+    color: green;
+  }
+  i.fab{
+    visibility: hidden;
+  }
+  &.fontAwesomeLoaded{
+    i.fab{
+      visibility: visible;
+    }
+  }
+  &.blokk {
+     
+    font-family: 'BLOKK';
+}
+}
