@@ -1,6 +1,6 @@
 import React from "react"
 import '../styles/home.scss';
-import db from '../images/me.jpg';
+import db from '../images/db.svg';
 
 
 export default () =>(
