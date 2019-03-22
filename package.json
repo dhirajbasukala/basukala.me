@@ -43,7 +43,6 @@
     "webpack-simple-progress-plugin": "0.0.4"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@hot-loader/react-dom": "^16.8.4",
