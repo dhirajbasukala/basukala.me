@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Emblema+One|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Emblema+One|Slabo+27px&display=swap');
 @import './normalize.css';
 html,body{
   margin:0;padding:0;
@@ -95,7 +95,6 @@ section.section-wrapper {
     font-weight:normal;
     font-size: 22px;
     font-family: "Slabo 27px", Georgia, 'Times New Roman', Times, serif;
-    font-display: swap;
     
     color: #444;
     text-align: center;
@@ -127,6 +126,7 @@ section.section-wrapper {
   }
   .social-links{
     a{
+      font-family: "Slabo 27px", Georgia, 'Times New Roman', Times, serif;
       color: var(--link-color);
       margin: 0 10px;
       text-decoration: none;
