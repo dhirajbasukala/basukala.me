@@ -92,7 +92,11 @@ section.section-wrapper {
       }
   }
   .me-about {
-    font: normal 22px "Slabo 27px";
+    font-weight:normal;
+    font-size: 22px;
+    font-family: "Slabo 27px", Georgia, 'Times New Roman', Times, serif;
+    font-display: swap;
+    
     color: #444;
     text-align: center;
     /* width: 600px; */
